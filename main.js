@@ -24,6 +24,11 @@ app.get('/:lat/:lon', function(req, res){
 
 });
 
+app.get('/', function(req,res){
+	res.status(200);
+	res.end("Done");
+})
+
 
 var server = app.listen(port, function() {
     console.log('Listening on port ' + port);
