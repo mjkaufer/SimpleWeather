@@ -1,0 +1,32 @@
+{
+  "name": "SimpleWeather",
+  "version": "0.0.1-2",
+  "description": "Weather thing",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mjkaufer/SimpleWeather"
+  },
+  "keywords": [
+    "weather"
+  ],
+  "author": "Matthew Kaufer (@mjkaufer)",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/mjkaufer/SimpleWeather/issues"
+  },
+  "dependencies": {
+    "request": "~2.45.0",
+    "express": "~4.9.7",
+    "body-parser": "~1.9.0"
+  },
+  "devDependencies": {},
+  "subdomain": "mjkaufer-SimpleWeather",
+  "engines": {
+    "node": "0.10.x"
+  }
+}
